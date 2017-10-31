@@ -6,7 +6,7 @@ public class MyView extends JFrame{
 
         super(s);
 
-        JLabel label = new JLabel("Вы нажали на кнопку Button1");
+        JLabel label = new JLabel("Вы нажали на кнопку Button");
 
         add(label);
 

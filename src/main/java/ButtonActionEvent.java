@@ -11,7 +11,9 @@ public class ButtonActionEvent implements ActionListener {
             new MyView("это моё окно");
         }
         if (command.equals("234")){
-            JOptionPane.showMessageDialog(null, "АБРАКАДАБРА");
+            JOptionPane.showMessageDialog(null, "Вы нажали на кнопку Button1");
+        }
+        if (command.equals("345")){
         }
 
     }
